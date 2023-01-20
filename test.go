@@ -8,7 +8,7 @@ import (
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	randomnum := rand.Intn(10-1) + 1
+	randomnum := rand.Intn(11-1) + 1
 	var UserInput int
 	var Restart string
 	try := 3
@@ -47,7 +47,7 @@ func main() {
 			fmt.Println("le nombre mystère était: ", randomnum)
 			fmt.Printf("Voulez vous recommencer? [Y/N]")
 			fmt.Scanln(&Restart)
-			if Restart == "Y" {
+			if Restart == "Y" || Restart == "y" {
 				main()
 			} else {
 				fmt.Println("GoodBye")
