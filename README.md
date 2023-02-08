@@ -1,6 +1,10 @@
 # Random-number-guesser-in-GO
 Made by @FY4ll
 
+# System requirement
+Go to go.dev/dl 
+and donwload the version of your Operating system
+
 # How to play
 Run the code in the terminal with the commande 
 ```
